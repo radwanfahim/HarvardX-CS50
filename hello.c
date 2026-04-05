@@ -1,7 +1,8 @@
+#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-    printf("Hello, World!\n");
-    return 0;
+    string name = get_string("Name: ");
+    printf("hello, %s\n ", name);
 }
